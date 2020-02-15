@@ -1,0 +1,9 @@
+#board_box {
+  width: 100%;
+  overflow: hidden;
+}
+#board_box2 {
+  width: 100%;
+  overflow: hidden;
+  border-top: 2px solid #3366ff;
+}

@@ -1,0 +1,145 @@
+body {
+}
+
+/*layout*/
+#wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#header_wrap {
+  background: url(../images/top_bg.jpg);
+  width: 100%;
+  height: 76px;
+}
+#header {
+  text-align: center;
+  width: 1200px;
+  height: 76px;
+  margin: auto;
+}
+#header h1 {
+  float: left;
+  margin-top: 11px;
+}
+#header ul {
+  float: left;
+  margin: 23px 0 0 692px;
+}
+#header li {
+  float: left;
+}
+
+/* intro */
+
+#nav-wrap {
+  position: fixed;
+  right: 0px;
+  top: 15%;
+  z-index: 90;
+  width: 84px;
+  height: 540px;
+  background: url(../images/quick_bg.png) no-repeat 0 0;
+}
+#quick_btn {
+  position: relative;
+  width: 84px;
+  margin: 20px 0 30px;
+}
+#quick_btn li {
+  width: 84px;
+  height: 67px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#nav {
+  position: relative;
+  clear: both;
+  margin-left: 30px;
+}
+#nav li {
+  position: relative;
+  width: 27px;
+  height: 27px;
+  margin-bottom: 12px;
+}
+#nav li a {
+  display: block;
+  width: 27px;
+  height: 27px;
+  background: url(../images/quick_off.png) 0 100% no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+#nav li a:hover {
+  background: url(../images/quick_on.png) 0 100% no-repeat;
+}
+#nav li.top a {
+  background: none;
+  text-indent: inherit;
+  text-indent: 0;
+}
+
+/* �¶��� ��� */
+#draggable {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  z-index: 99999999;
+  width: 230px;
+  height: 330px;
+  background: url(../images/online-bg.png) no-repeat top left;
+  border: none;
+  font-family: dotum;
+}
+span {
+  font-size: 12px;
+}
+.txt {
+  font-size: 11px;
+  color: #5c4349;
+  font-weight: bold;
+}
+.list {
+  font-size: 11px;
+  width: 45px;
+  height: 18px;
+}
+.select {
+  font-size: 11px;
+  color: #444;
+}
+.input {
+  border: 1px solid #c8c8c8;
+  width: 130px;
+  height: 15px;
+  font-size: 11px;
+}
+.input_txt {
+  border: 1px solid #c8c8c8;
+  width: 130px;
+  height: 60px;
+  font-size: 11px;
+}
+.input_phone {
+  border: 1px solid #c8c8c8;
+  width: 35px;
+  height: 15px;
+  font-size: 11px;
+}
+.check_txt {
+  font-size: 11px;
+  color: #444;
+}
+.online-table {
+  font-size: 11px;
+  width: 220px;
+  height: 220px;
+  margin-top: 45px;
+  text-align: left;
+}
+.online-table th {
+  text-align: left;
+  padding-left: 15px;
+}
